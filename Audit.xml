@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Audit">
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.TestListeners" />
+	</listeners>
+	<test thread-count="5" name="audit">
+		<classes>
+			<class name="ui.tests.auditTrail.QA_002_verifyNoOfUserInPage" />
+		</classes>
+	</test> <!-- Test -->
+	<test thread-count="5" name="audit2">
+		<classes>
+			<class name="ui.tests.auditTrail.QA_001_VerifyUserName" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->

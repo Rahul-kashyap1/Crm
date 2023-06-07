@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.TestListeners"/>
+  </listeners>
+  <test thread-count="5" name="1(failed)">
+    <classes>
+      <class name="ui.tests.home.QA_001_ValidateNoCompanyLoadedButton">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="createNode"/>
+          <include name="validateButton"/>
+        </methods>
+      </class> <!-- ui.tests.home.QA_001_ValidateNoCompanyLoadedButton -->
+    </classes>
+  </test> <!-- 1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

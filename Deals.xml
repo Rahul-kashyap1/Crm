@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+		<listener class-name="com.qa.ExtentReportListener.TestListeners" />
+	</listeners>
+
+	<test thread-count="5" name="1">
+		<classes>
+			<class name="ui.tests.deals.QA_001_CreateNewDeal" />
+		</classes>
+	</test> <!-- Test -->
+
+	<test thread-count="5" name="2">
+		<classes>
+			<class name="ui.tests.deals.QA_002_ValidateHelpButton" />
+		</classes>
+	</test> <!-- Test -->
+
+</suite> <!-- Suite -->
